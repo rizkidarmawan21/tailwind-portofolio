@@ -15,7 +15,7 @@
         <div class="container">
             <div class="relative flex items-center justify-between">
                 <div class="px-4">
-                    <a href="#home" class="block font-bold text-lg text-primary py-6">Rizki Darmawan</a>
+                    <a href="#home" class="block font-bold text-lg text-primary py-6 ">Rizki Darmawan</a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="humberger" name="humberger" type="button" class="block absolute right-4 lg:hidden">
@@ -67,7 +67,7 @@
                     <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">Halo Semua 👋, saya <span
                             class="block font-bold text-slate-900 text-4xl mt-1">Rizki Darmawan</span>
                     </h1>
-                    <h2 class="font-medium text-slate-500 text-lg mb-5">Software Engineer</h2>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5"><span class="typed"></span></h2>
                     <p class="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Corrupti laboriosam veniam doloremque tempora, quos saepe! Nisi perferendis,
                         iusto veniam exercitationem ex quas a molestiae, non sequi, similique dolore. Magni,
@@ -481,5 +481,13 @@
     <!-- end Foooter -->
     <script src="dist/js/script.js"></script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var Typed = new Typed('.typed', {
+        strings: ["Web Developer", "Backend Developer", "Frontend Developer", "Fullstack Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+</script>
 </html>
